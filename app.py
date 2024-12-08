@@ -1,11 +1,11 @@
 import streamlit as st
 
 # Welcome message
-st.title("Welcome To Band Name Generator")
+st.title("Band Name Generator App")
 
 # User input fields
 city = st.text_input("What city did you grow you up in?\n")
-pet = st.text_input("What is the name of a pet?\n")
+pet = st.text_input("What is the name of the pet you like?\n")
 
 # Conditional Logic for generating the Band Name
 if st.button("Generate Band Name"):
